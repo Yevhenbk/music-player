@@ -1,13 +1,84 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: black;
+}
+#app{
+    background-color: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container{
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 3rem;
+background-color: black;
+}
 
-*/
+.title-tab{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #921ed6;
+    margin: 2rem 0 0 1rem;
+    font-size: 21px;
+}
+
+.song-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 4rem;
+    font-size: 1rem;
+    background-color: #151515ad;
+    padding: 0.5rem;
+
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.onPlaying{
+    display: flex;
+}
+
+.onPlaying:hover{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #921ed6;
+    border-radius: 0.3rem;
+    width: 10rem;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.button-size{
+    color: black;
+    background-color: #921ed6;
+    border-radius: 3px;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.button-size:hover{
+    color: white;
+   
+}
+
+@media only screen and (max-width: 1240px) , (max-width: 100%) {
+
+.img-title-box{
+    display: flex;
+    flex-direction: column;
+}
+.title-box{
+    font-size: 1.3rem;
+}
+
+}
