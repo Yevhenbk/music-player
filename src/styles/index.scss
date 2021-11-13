@@ -18,7 +18,7 @@ background-color: black;
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    color: #921ed6;
+    color: #00b33c;
     margin: 2rem 0 0 1rem;
     font-size: 21px;
 }
@@ -42,13 +42,14 @@ li{
 }
 .onPlaying{
     display: flex;
+    cursor: pointer;
 }
 
 .onPlaying:hover{
     display: flex;
     justify-content: center;
     color: black;
-    background-color: #921ed6;
+    background-color: #00b33c;
     border-radius: 0.3rem;
     width: 10rem;
 }
@@ -61,7 +62,7 @@ li{
 
 .button-size{
     color: black;
-    background-color: #921ed6;
+    background-color: #00b33c;
     border-radius: 3px;
     margin: 1.5rem 0.5rem 0.5rem 0.5rem;
 }
